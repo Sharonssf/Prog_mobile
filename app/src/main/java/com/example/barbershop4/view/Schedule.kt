@@ -4,13 +4,16 @@ import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.os.Bundle
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import com.example.barbershop4.databinding.ActivityScheduleBinding
 import java.util.Calendar
 
 class Schedule : AppCompatActivity() {
 
     private lateinit var binding: ActivityScheduleBinding
+    private val viewModel: ScheduleViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +21,14 @@ class Schedule : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.hide()
+
+        viewModel.selectedDate.observe(this, Observer { date ->
+            binding.tvSelectedDate.text = date
+        })
+
+        viewModel.selectedTime.observe(this, Observer { time ->
+            binding.tvSelectedTime.text = time
+        })
 
         binding.btnDatePicker.setOnClickListener {
             showDatePicker()
@@ -40,7 +51,8 @@ class Schedule : AppCompatActivity() {
         val day = calendar.get(Calendar.DAY_OF_MONTH)
 
         val datePickerDialog = DatePickerDialog(this, { _, selectedYear, selectedMonth, selectedDay ->
-            binding.tvSelectedDate.text = "$selectedDay/${selectedMonth + 1}/$selectedYear"
+            val date = "$selectedDay/${selectedMonth + 1}/$selectedYear"
+            viewModel.setSelectedDate(date)
         }, year, month, day)
         datePickerDialog.show()
     }
@@ -51,7 +63,8 @@ class Schedule : AppCompatActivity() {
         val minute = calendar.get(Calendar.MINUTE)
 
         val timePickerDialog = TimePickerDialog(this, { _, selectedHour, selectedMinute ->
-            binding.tvSelectedTime.text = "$selectedHour:$selectedMinute"
+            val time = "$selectedHour:$selectedMinute"
+            viewModel.setSelectedTime(time)
         }, hour, minute, true)
         timePickerDialog.show()
     }
