@@ -1,6 +1,6 @@
 BarberShop App
 App Logo
-(Insira o logo do aplicativo aqui)
+
 
 Descrição
 BarberShop é um aplicativo de agendamento para barbearias que permite aos usuários marcar seus horários com facilidade. Com uma interface amigável e moderna, o BarberShop oferece uma experiência fluida, desde o login até a confirmação do agendamento, incluindo opções de tema claro e escuro.
@@ -24,9 +24,8 @@ Confirme o Agendamento: Clique em "Confirmar" para agendar seu horário. Uma men
 Tema Claro/Escuro: Use o switch para alternar entre o tema claro e o escuro conforme sua preferência.
 Instalação
 Clone o Repositório
-bash
-Copiar código
-git clone https://github.com/seu-usuario/barbershop.git
+
+git clone https://github.com/Sharonssf/Prog_mobile.git
 Abra no Android Studio
 Vá em File > Open e selecione o diretório do projeto.
 Construa o Projeto
