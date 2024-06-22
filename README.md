@@ -1,30 +1,45 @@
-BarberShop App
-App Logo
+# BarberShop App
 
+![App Logo](link-para-o-logo-aqui)
 
-Descrição
-BarberShop é um aplicativo de agendamento para barbearias que permite aos usuários marcar seus horários com facilidade. Com uma interface amigável e moderna, o BarberShop oferece uma experiência fluida, desde o login até a confirmação do agendamento, incluindo opções de tema claro e escuro.
+## Descrição
 
-Funcionalidades
-Uso de ViewModel: Mantém os dados da interface do usuário durante mudanças de configuração.
-Uso de NavController e NavHost: Navegação simplificada e eficiente entre telas.
-Suporte para tema dark e light conforme o Material Design 3: Adaptável às preferências do usuário para tema claro ou escuro.
-Uso de botões: Interface intuitiva com botões para facilitar a interação.
-Uso de imagens: Design visualmente atraente com imagens relevantes.
-Fonte personalizada: Estilo único com fontes customizadas.
-Criação da Top Bar: Barra de topo personalizada para navegação e informações.
-Implementação de uma animação simples: Animações para melhorar a experiência do usuário.
-Capturas de Tela
-(Insira capturas de tela das principais telas do aplicativo)
+**BarberShop** é um aplicativo de agendamento para barbearias que permite aos usuários marcar seus horários com facilidade. Com uma interface amigável e moderna, o BarberShop oferece uma experiência fluida, desde o login até a confirmação do agendamento, incluindo opções de tema claro e escuro.
 
-Como Usar
-Faça Login: Abra o aplicativo e insira suas credenciais para fazer login.
-Escolha a Data e Hora: Na tela de agendamento, selecione a data e a hora desejadas.
-Confirme o Agendamento: Clique em "Confirmar" para agendar seu horário. Uma mensagem de confirmação será exibida.
-Tema Claro/Escuro: Use o switch para alternar entre o tema claro e o escuro conforme sua preferência.
-Instalação
-Clone o Repositório
+## Funcionalidades
 
+- **Uso de ViewModel**: Mantém os dados da interface do usuário durante mudanças de configuração.
+- **Uso de NavController e NavHost**: Navegação simplificada e eficiente entre telas.
+- **Suporte para tema dark e light conforme o Material Design 3**: Adaptável às preferências do usuário para tema claro ou escuro.
+- **Uso de botões**: Interface intuitiva com botões para facilitar a interação.
+- **Uso de imagens**: Design visualmente atraente com imagens relevantes.
+- **Fonte personalizada**: Estilo único com fontes customizadas.
+- **Criação da Top Bar**: Barra de topo personalizada para navegação e informações.
+- **Implementação de uma animação simples**: Animações para melhorar a experiência do usuário.
+
+## Capturas de Tela
+
+### Tela de Login
+![Login Screen](link-para-imagem-login)
+
+### Tela de Agendamento
+![Schedule Screen](link-para-imagem-agendamento)
+
+### Tela de Confirmação
+![Confirmation Screen](link-para-imagem-confirmacao)
+
+## Como Usar
+
+1. **Faça Login**: Abra o aplicativo e insira suas credenciais para fazer login.
+2. **Escolha a Data e Hora**: Na tela de agendamento, selecione a data e a hora desejadas.
+3. **Confirme o Agendamento**: Clique em "Confirmar" para agendar seu horário. Uma mensagem de confirmação será exibida.
+4. **Tema Claro/Escuro**: Use o switch para alternar entre o tema claro e o escuro conforme sua preferência.
+
+## Instalação
+
+### Clone o Repositório
+
+```bash
 git clone https://github.com/Sharonssf/Prog_mobile.git
 Abra no Android Studio
 Vá em File > Open e selecione o diretório do projeto.
