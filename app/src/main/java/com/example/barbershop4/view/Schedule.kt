@@ -3,6 +3,7 @@ package com.example.barbershop4.view
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.barbershop4.databinding.ActivityScheduleBinding
 import java.util.Calendar
@@ -27,6 +28,7 @@ class Schedule : AppCompatActivity() {
         }
 
         binding.btnConfirm.setOnClickListener {
+            Toast.makeText(this, "Agendamento com sucesso", Toast.LENGTH_SHORT).show()
             // Aqui você pode salvar o agendamento ou navegar para outra tela
         }
     }

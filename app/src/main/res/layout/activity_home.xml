@@ -14,4 +14,14 @@
         android:layout_height="wrap_content"
         android:text="Agendar Horário"
         android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/switchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo Escuro"
+        android:layout_marginTop="20dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="12dp"/>
 </LinearLayout>
