@@ -1,6 +1,6 @@
 # BarberShop App
 
-![App Logo](link-para-o-logo-aqui)
+![App Logo]((https://github.com/Sharonssf/Prog_mobile/blob/main/app/src/main/res/drawable/logobarber1.jpg))
 
 ## Descrição
 
