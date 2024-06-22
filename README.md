@@ -19,14 +19,7 @@
 
 ## Capturas de Tela
 
-### Tela de Login
-![Login Screen](link-para-imagem-login)
-
-### Tela de Agendamento
-![Schedule Screen](link-para-imagem-agendamento)
-
-### Tela de Confirmação
-![Confirmation Screen](link-para-imagem-confirmacao)
+([link-para-video](https://youtu.be/8Ha67sgyDnI))
 
 ## Como Usar
 
